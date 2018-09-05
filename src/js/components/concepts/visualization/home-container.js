@@ -9,7 +9,7 @@ import { saveSecondLang } from 'js/actions/app';
 import loadConcept from 'js/actions/concepts/concept';
 import loadDisseminationStatusList from 'js/actions/dissemination-status';
 import loadStampList from 'js/actions/stamp';
-import loadGeneralAndAllNotes from 'js/actions/concepts/general-and-all-notes';
+import loadConceptAndAllNotes from 'js/actions/concepts/concept-and-all-notes';
 import check from 'js/utils/auth';
 import Loading from 'js/components/shared/loading';
 import ConceptVisualization from './home';
@@ -31,24 +31,15 @@ class ConceptVisualizationContainer extends Component {
 		};
 	}
 	componentWillMount() {
-		const {
-			id,
-			concept,
-			allNotes,
-			stampList,
-			disseminationStatusList,
-		} = this.props;
-		if (!concept) this.props.loadConcept(id);
-		if (!stampList) this.props.loadStampList();
-		if (!disseminationStatusList) this.props.loadDisseminationStatusList();
+		const { id, allNotes } = this.props;
 		if (!allNotes) {
-			this.props.loadGeneralAndAllNotes(id);
+			this.props.loadConceptAndAllNotes(id);
 		}
 	}
 
 	componentWillReceiveProps({ id, validationStatus }) {
 		if (id !== this.props.id) {
-			this.props.loadConcept(id);
+			this.props.loadConceptAndAllNotes(id);
 		}
 		if (this.state.validationRequested && validationStatus === OK) {
 			//validation has been processed successfully, we can show the
@@ -71,17 +62,8 @@ class ConceptVisualizationContainer extends Component {
 				return <Loading textType="validating" context="concepts" />;
 			}
 		}
-		const {
-			id,
-			permission,
-			concept,
-			allNotes,
-			stampList,
-			disseminationStatusList,
-			secondLang,
-			langs,
-		} = this.props;
-		if (concept && stampList && disseminationStatusList && allNotes) {
+		const { id, permission, concept, allNotes, secondLang, langs } = this.props;
+		if (concept && allNotes) {
 			const { general, links } = concept;
 			let { notes } = concept;
 			const { conceptVersion, isValidated, creator } = general;
@@ -115,8 +97,6 @@ class ConceptVisualizationContainer extends Component {
 					general={general}
 					notes={notes}
 					links={links}
-					stampList={stampList}
-					disseminationStatusList={disseminationStatusList}
 					validateConcept={this.handleConceptValidation}
 					validationStatus={validationStatus}
 					secondLang={secondLang}
@@ -142,8 +122,6 @@ const mapStateToProps = (state, ownProps) => {
 		secondLang: state.app.secondLang,
 		concept: select.getConcept(state, id),
 		allNotes,
-		stampList: select.getStampList(state),
-		disseminationStatusList: select.getDisseminationStatusList(state),
 		//TODO should check if the concept which has been validated are the same
 		//a validation has been requested for.
 		validationStatus: select.getStatus(state, VALIDATE_CONCEPT_LIST),
@@ -156,7 +134,7 @@ const mapDispatchToProps = {
 	loadConcept,
 	loadDisseminationStatusList,
 	loadStampList,
-	loadGeneralAndAllNotes,
+	loadConceptAndAllNotes,
 	validateConcept: id => validateConcepts([id]),
 };
 
