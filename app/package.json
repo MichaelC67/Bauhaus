@@ -51,7 +51,6 @@
 	},
 	"devDependencies": {
 		"axe-core": "3.5.5",
-		"coveralls": "3.0.3",
 		"cross-env": "7.0.2",
 		"cypress": "4.11.0",
 		"cypress-axe": "0.8.1",

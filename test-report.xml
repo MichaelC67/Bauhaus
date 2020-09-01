@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="D:\dev\Bauhaus\app\cypress\integration\home.spec.js">
+    <testCase name="Home Page Should go to the Concepts page and come back" duration="6">
+      <failure message="ReferenceError: cy is not defined"><![CDATA[ReferenceError: cy is not defined
+    at Object.<anonymous> (D:\dev\Bauhaus\app\cypress\integration\home.spec.js:3:3)
+    at Object.asyncJestTest (D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+    at D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:47:12
+    at new Promise (<anonymous>)
+    at mapper (D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:30:19)
+    at D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:77:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)]]></failure>
+    </testCase>
+    <testCase name="Home Page Should go to the Nomenclatures page and come back" duration="1">
+      <failure message="ReferenceError: cy is not defined"><![CDATA[ReferenceError: cy is not defined
+    at Object.<anonymous> (D:\dev\Bauhaus\app\cypress\integration\home.spec.js:16:3)
+    at Object.asyncJestTest (D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+    at D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:47:12
+    at new Promise (<anonymous>)
+    at mapper (D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:30:19)
+    at D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:77:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)]]></failure>
+    </testCase>
+    <testCase name="Home Page Should go to the Operations page and come back" duration="1">
+      <failure message="ReferenceError: cy is not defined"><![CDATA[ReferenceError: cy is not defined
+    at Object.<anonymous> (D:\dev\Bauhaus\app\cypress\integration\home.spec.js:26:3)
+    at Object.asyncJestTest (D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+    at D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:47:12
+    at new Promise (<anonymous>)
+    at mapper (D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:30:19)
+    at D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:77:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)]]></failure>
+    </testCase>
+    <testCase name="Home Page Should contain a footer" duration="1">
+      <failure message="ReferenceError: cy is not defined"><![CDATA[ReferenceError: cy is not defined
+    at Object.<anonymous> (D:\dev\Bauhaus\app\cypress\integration\home.spec.js:36:3)
+    at Object.asyncJestTest (D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+    at D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:47:12
+    at new Promise (<anonymous>)
+    at mapper (D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:30:19)
+    at D:\dev\Bauhaus\node_modules\@jest\core\node_modules\jest-jasmine2\build\queueRunner.js:77:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)]]></failure>
+    </testCase>
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\administration\dashboard\concepts\concepts\creations-modifications\creations-modifications.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\msd\pages\sims-creation\sims-field.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\administration\dashboard\concepts\collections\summary\summary.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\msd\pages\sims-visualisation\sims-block-codelist.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\administration\dashboard\concepts\collections\creations-modifications\creations-modifications.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\administration\dashboard\concepts\concepts\summary\summary.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\edition-creation\links\search-concepts-by-label.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\tree\dnd\dnd.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\edition-creation\links\links.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\edition-creation\controls\validation.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\edition-creation\links\concept-to-link.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\edition-creation\controls\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\msd\documents\documents-bloc\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\shared\vizualisation-container\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\edition-creation\controls\controls-layout.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\shared\seeAlso\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\shared\list\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\series\visualization\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\shared\links\utils.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\shared\links\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\operations\visualization\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\operations\visualization\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\msd\outline\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\msd\outline\outline-block.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\msd\help-information\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\indicators\visualization\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\indicators\visualization\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\indicators\edition\validation.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\indicators\edition\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\document\visualization\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\document\visualization\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\document\edition\validation.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\families\visualization\visualization.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\families\visualization\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\families\edition\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\visualization\tree\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\visualization\items\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\visualization\items\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\utils\classification\notes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\visualization\tree\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\series\visualization\notes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\series\visualization\members.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\series\visualization\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\series\visualization\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\families\visualization\members.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\series\visualization\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\item\compare\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\item\compare\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\families\visualization\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\families\visualization\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\correspondences\visualization\home-associations.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\correspondences\visualization\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\correspondences\visualization\home-general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\correspondences\association\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\administration\dashboard\concepts\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\correspondences\association\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\auth\open-id-connect-auth\utils.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\auth\no-auth\utils.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\auth\components\auth.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\collections\build-payload\build-payload.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\concepts\by-id\links.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\concepts\by-id\notes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\concepts\by-id\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\concepts\by-id\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\collections\by-id\members.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\collections\by-id\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\collections\by-id\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\series\members.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\series\selector.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\series\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\level\members.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\level\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\level\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\item\notes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\item\narrowers.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\item\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\item\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\items\items.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\family\members.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\family\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\correspondence\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\correspondence\associations.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\correspondence\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\correspondence\association.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\classification\levels.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\classification\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\classification\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\structures\edition\component.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\structures\edition\control.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\structures\menu\dsds.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\tabs\tabs.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\tabs-rmes\tabs-rmes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\select-rmes\select-rmes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\panel-html\panel-html.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\picker-page\picker.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\note-visualization\note-visualization.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\note-edition\note-edition.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\note-edition\note-one-lang-edition.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\note-edition\modify-notes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\note-compare\note-compare.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\not-found\not-found.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\modal-rmes\modal-rmes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\input-rmes\input-rmes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\input-multi-rmes\input-multi-rmes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\input-multi-modal-rmes\input-multi-modal-rmes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\flag\flag.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\explanatory-note\explanatory-note.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\shared\date-picker-rmes\date-picker-rmes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\visualization\stand-by.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\visualization\notes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\visualization\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\visualization\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\visualization\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\validation\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\send\status.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\send\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\send\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\menu\concepts.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\export\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\edition-creation\notes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\edition-creation\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\edition-creation\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\compare\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\advanced-search\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\compare\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\advanced-search\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\tree\tree.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\operations\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\msd\utils.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\msd\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\menu\operations.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\indicators\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\document\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\indicators\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\document\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\operations\families\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\send\status.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\send\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\send\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\visualization\members.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\visualization\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\visualization\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\visualization\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\validation\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\edition-creation\members.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\export\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\edition-creation\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\edition-creation\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\edition-creation\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\auth\open-id-connect-auth\login-container.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\visualization\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\visualization\notes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\visualization\levels.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\visualization\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\visualization\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\series\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\series\home-container.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\level\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\level\members.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\level\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\level\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\item\notes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\item\narrowers.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\item\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\item\general.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\item\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\families\home-container.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\menu\classifications.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\families\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\correspondences\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\correspondences\home-container.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\utils\setup.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\utils\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\series\item.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\series\list.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\sims\item.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\operations\list.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\metadatastructure\list.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\operations\item.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\indicators\list.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\families\list.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\families\item.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\indicators\item.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\documents\list.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\operations\documents\item.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\classifications\item\notes-version.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\utilities\src\components\page-title-block\page-title-block.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\utilities\src\components\validationButton\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\utilities\src\components\editor-html\editor-html.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\utilities\src\components\advanced-search\controls.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\structures\src\components\structure-component-selector\structure-component-selector.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\structures\src\components\component-specification-modal\component-specification-modal.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\structures\src\components\mutualized-component-selector\mutualized-component-selector.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\structures\src\components\component-detail\edit.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\structures\src\components\component-detail\view.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\structures\src\components\component-detail\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\structures\src\components\collapsible-panel\collapsible-panel.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\msd\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\describe-form\extract-fields.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\concepts\notes.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\describe-form\describe-handlers.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\concepts\build-validation-message.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\collections\empty-collection.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\concepts\is-versioning-possible.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\utils\list-reducer.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\operations\organisation.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\operations\loadStatus.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\utils\reset-reducer.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\operations\document.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\operations\current.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\operations\codesList.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\classifications\selector.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\app\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\help\menu.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\help\footer.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\concepts\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\help\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\collections\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\auth\hoc.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\classifications\home-container.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\applications\administration\home.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\dashboard\collections.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\concepts\delete.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\concepts\list.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\actions\app\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\utilities\src\utils\item-to-select-model.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\utilities\src\utils\html-utils.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\utilities\src\stores\secong-lang.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\utilities\src\utils\date-utils.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\utilities\src\utils\array-utils.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\utilities\src\auth\selectors.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\utilities\src\apis\build-api.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\packages\structures\src\utils\index.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\utils\array-utils.spec.js">
+  </file>
+  <file path="D:\dev\Bauhaus\app\src\js\reducers\index.spec.js">
+  </file>
+</testExecutions>
